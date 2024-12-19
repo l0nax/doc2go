@@ -1,15 +1,15 @@
 module go.abhg.dev/doc2go/integration
 
-go 1.22.0
+go 1.23
 
 replace go.abhg.dev/doc2go => ../
 
 require (
 	github.com/andybalholm/cascadia v1.3.2
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	go.abhg.dev/container/ring v0.3.0
 	go.abhg.dev/doc2go v0.8.1
-	golang.org/x/net v0.31.0
+	golang.org/x/net v0.33.0
 )
 
 require (
